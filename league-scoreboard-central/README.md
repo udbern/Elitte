@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+🏆 EliteLeague — eFootball League Management Website
 
-## Project info
+EliteLeague is a modern football league management website built with React.js, and Sanity CMS.
+It provides a full system for displaying fixtures, results, standings, top scorers, blogs, and more — all dynamically managed from a CMS.
 
-**URL**: https://lovable.dev/projects/a3c26cca-d0ae-4620-b13a-40c590e4d69c
+🚀 Features
+⚽ Fixtures & Results
 
-## How can I edit this code?
+Displays all fixtures by matchday/round
 
-There are several ways of editing your application.
+Carousel of recent matches on homepage
 
-**Use Lovable**
+List view on fixtures page
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a3c26cca-d0ae-4620-b13a-40c590e4d69c) and start prompting.
+Auto-updates match status (Scheduled/Completed)
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Standings (League Table)
 
-**Use your preferred IDE**
+Automatically updates via Sanity Webhooks when a match is marked as completed
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tracks points, wins, draws, losses, goals scored, goals conceded, goal difference
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🥇 Top Scorers
 
-Follow these steps:
+Displays players and their total goals
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Dynamic UI built with React components
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+📰 News & Blog
 
-# Step 3: Install the necessary dependencies.
-npm i
+Managed via Sanity
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Blog detail page styled like modern sports blogs
 
-**Edit a file directly in GitHub**
+🗂 Powered by Sanity CMS
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Fully structured content types for Fixtures, Teams, Standings, Players, Blog posts, Hero, About page, etc.
 
-**Use GitHub Codespaces**
+Image & File uploads (Hero image, CV file, etc.)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+💻 Tech Stack
 
-## What technologies are used for this project?
+Next.js 14 (App Router)
 
-This project is built with:
+React + Tailwind CSS + Framer Motion
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Sanity v5 (Headless CMS)
 
-## How can I deploy this project?
+Clerk / Supabase (optional for auth)
 
-Simply open [Lovable](https://lovable.dev/projects/a3c26cca-d0ae-4620-b13a-40c590e4d69c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Vercel Hosting
